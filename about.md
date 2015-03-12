@@ -4,11 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm an electrical engineer based in Winnipeg, Canada. I'm  currently working at Lumoplay, developing the holodeck. Well, not really. I'm working on LUMO, a projector capable of transforming any room into an interactive playground. I do think it is the first step towards the holodeck.
 
 ### Contact me
 
