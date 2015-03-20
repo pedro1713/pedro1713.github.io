@@ -14,7 +14,7 @@ I'll try to explain some of the modifications done and my results.
 
 ##Modifying board-rk3168-ds1006h-camera.c
 A few modifications were done on this file. The majority of them are showed below:
-[gist url="https://gist.github.com/pedro1713/350578c7a02d1d269080"]
+<script src="https://gist.github.com/pedro1713/89d68a80ce4b163129d8.js"></script>
 {% gist 350578c7a02d1d269080 %}
 
 In the code above we added a new camera device with the specifications of the OV7740 sensor. We also modified the camera sensor configuration macro the represent an OV7740 sensor for all the back cameras.
