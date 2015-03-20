@@ -14,7 +14,9 @@ I'll try to explain some of the modifications done and my results.
 
 ##Modifying board-rk3168-ds1006h-camera.c
 A few modifications were done on this file. The majority of them are showed below:
-[gist url="https://gist.github.com/pedro1713/350578c7a02d1d269080"]{% gist 350578c7a02d1d269080 %}
+[gist url="https://gist.github.com/pedro1713/350578c7a02d1d269080"]
+{% gist 350578c7a02d1d269080 %}
+
 In the code above we added a new camera device with the specifications of the OV7740 sensor. We also modified the camera sensor configuration macro the represent an OV7740 sensor for all the back cameras.
 
 The last modification done in this file was to change the value of the ldo7 variable to 3.3 volts, since that is the voltage required by the OV7740 sensor to operate. This change for the ldo7 variable have to also be reflected in the board file, which sets the minimum and maximum values for ldo7. 
