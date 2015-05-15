@@ -1,3 +1,9 @@
+---
+layout: post
+title: A simple project for the Grand Marais Museum
+---
+
+
 I recently finished a small project for the Grand Marais museum. 
 Well actually a couple of weeks ago but it is being installed over the weekend.
 It involved a payphone case from the '50s and a Raspberry Pi.
